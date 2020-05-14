@@ -47,7 +47,7 @@ REACT_APP_APP_URL=http://myapp.herokuapp.com/
 ```
 - Es muy importante sustituir todas las url de los `services`que tengamos en la app por las variables de entorno que hemos creado con `process.env.REACT_APP_API_URL`
 
-4. Dentro del archivo `package.json`de la parte de client hay que configurar los scripts:
+4. Dentro del archivo `package.json`en **client** hay que configurar los `scripts`:
 
 ```json
 "start" : "dotenv -e -env.dev react-scripts start"
