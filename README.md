@@ -27,7 +27,7 @@ app.use("/api",require("/routes"))
 
 2. Crear los dos ficheros de variables de entorno **en la raíz de la carpeta client**:
 
-   `$ touch .env.dev .env.prod`
+   `$touch .env.dev .env.prod`
 
 
 3. Poner las variables de entorno. También se añadirán los otros datos que no queremos que se suban al repositorio y pertenecen al front (credenciales, claves API, etc.)
