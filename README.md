@@ -15,12 +15,12 @@ Haremos el deploy de la app en **Heroku** y la db irá en **MongoDB Atlas**.
 3. En el fichero `.env`, añadir la URL de la base de datos local. También tenemos que añadir otros datos que no queremos que se suban al repositorio (credenciales, claves API...).
 4. En `app.js` poner antes del `module.exports` cual es el `index` que tiene que enviar:
 ```javascript
+//aquí deben ir las rutas de la api (nuestras rutas del back), ejemplo:
+app.use("/api",require("/routes"))
+
 app.use((req,res)=>{
 res.sendFile(__dirname+"/public/index.html");
 })
-
-//aquí deben ir las rutas de la api (nuestras rutas del back), ejemplo:
-app.use("/api",require("/routes"))
 ```
 
 ## Client - Configuración del entorno local:
