@@ -60,3 +60,14 @@ REACT_APP_APP_URL=http://myapp.herokuapp.com/
 ```
 
 5. Ejecutar `npm run build-prod` **en la carpeta client** y mover **todo el contenido** de la carpeta **build** (se ha creado después de hacer la build) dentro de **public** en **server** (la carpeta public de server hay que borrarla antes de mover el contenido de client).
+
+## Creación de cuenta, configuración y deploy en HEROKU
+
+👉🏼 Hay que seguir los pasos de [este readme](/HerokuConfig.md)
+
+## Faqs, problemas comunes:
+Work in progress
+
+##
+ironhackTAs❤️05/2020 
+
