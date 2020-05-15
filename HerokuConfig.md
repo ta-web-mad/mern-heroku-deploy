@@ -19,7 +19,7 @@ Aquí configuraremos dentro de heroku el equivalente al .env que **no se sube** 
 
 1. Entramos en heroku y vamos al panel de control de la app que hemos creado
 2. Vamos a Settings y desplegamos la pestaña **Reveal config vars**
-3. Añadimos una a una todas las variables de entorno que tenemos en nuestro `.env` del server. (Sin comillas, espacios ni saltos de linea)
+3. Añadimos una a una todas las variables de entorno que tenemos en nuestro `.env` del server y del `.env.prod` del client. (Sin comillas, espacios ni saltos de linea)
 
 ## Deploy
 
