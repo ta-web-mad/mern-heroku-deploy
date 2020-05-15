@@ -56,7 +56,7 @@ REACT_APP_APP_URL=http://myapp.herokuapp.com/
 ```json
 "start" : "dotenv -e .env.dev react-scripts start",
 "build-dev" : "dotenv -e .env.dev react-scripts build",
-"build-prod" : "dotenv -e .env.dev react-scripts build",
+"build-prod" : "dotenv -e .env.prod react-scripts build",
 ```
 
 5. Ejecutar `npm run build-prod` **en la carpeta client** y mover **todo el contenido** de la carpeta **build** (se ha creado después de hacer la build) dentro de **public** en **server** (la carpeta public de server hay que borrarla antes de mover el contenido de client).
