@@ -40,14 +40,14 @@ res.sendFile(__dirname+"/public/index.html");
 
 ```mk
 REACT_APP_API_URL=http://localhost:5000/api
-REACT_APP_APP_URL=http://localhost:5000/
+REACT_APP_URL=http://localhost:5000/
 ```
 
 `.env.prod` 
 
 ```mk
 REACT_APP_API_URL=http://myapp.herokuapp.com/api
-REACT_APP_APP_URL=http://myapp.herokuapp.com/
+REACT_APP_URL=http://myapp.herokuapp.com/
 ```
 - Es muy importante sustituir todas las url de los `services`que tengamos en la app por las variables de entorno que hemos creado con `process.env.REACT_APP_API_URL`
 
