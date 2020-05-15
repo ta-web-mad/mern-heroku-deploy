@@ -4,6 +4,10 @@ Con esta guía haremos un deploy sencillo pero funcional para los proyectos fina
 
 Haremos el deploy de la app en **Heroku** y la db irá en **MongoDB Atlas**.
 
+## Creación de cuenta, cluster y Seed en MongoDBAtlas
+
+👉🏼 Hay que seguir los pasos de [este readme](/MongoAtlas-config.md)
+
 ## Server - Configuración entorno local:
 
 1. Instalar y configurar el módulo ​`dotenv​`. Acordaos de requerir el módulo donde sea necesario.
