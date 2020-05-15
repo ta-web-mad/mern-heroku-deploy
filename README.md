@@ -6,7 +6,7 @@ Haremos el deploy de la app en **Heroku** y la db irá en **MongoDB Atlas**.
 
 ## Creación de cuenta, cluster y Seed en MongoDBAtlas
 
-👉🏼 Hay que seguir los pasos de [este readme](/MongoAtlas)
+👉🏼 Hay que seguir los pasos de [este readme](/MongoAtlas.md)
 
 ## Server - Configuración entorno local:
 
